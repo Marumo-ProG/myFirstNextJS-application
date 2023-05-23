@@ -1,5 +1,6 @@
 import "@fontsource/roboto";
-import SignUp from "./components/SignUp"
+import SignUp from "./components/SignUp";
+import Login from "./components/Login"
 import { Typography, Grid, Container, Link, Button } from "@mui/material";
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
       </h2>
       <hr style={{width: "50%", marginLeft: "auto", marginRight: "auto"}}/>
       <Container style={{width: "70%"}}>
-        <SignUp />
+        <Login />
 
         <div className="bottom-nav">
           <Button>SignUp</Button>
